@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:navigation="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/feedFragment">
+
+    <fragment
+        android:id="@+id/feedFragment"
+        android:name="com.example.verbalvoyage.fragments.FeedFragment"
+        android:label="Feed" />
+
+    <fragment
+        android:id="@+id/practiceFragment"
+        android:name="com.example.verbalvoyage.fragments.PracticeFragment"
+        android:label="Practice" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.verbalvoyage.fragments.ProfileFragment"
+        android:label="Profile" />
+
+</navigation>
